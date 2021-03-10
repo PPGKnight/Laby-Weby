@@ -1,0 +1,47 @@
+body {
+    background-color: lightgrey;
+}
+div {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+#b1 {
+    background-color: lightsalmon;
+    top: 0px;
+    left: 1000px;
+    width: 700px;
+    height: 100px;
+
+}
+#b2 {
+    background-color: lightskyblue;
+    top: 100px;
+    left: 1000px;
+    height: 500px;
+    width: 150px
+    ;
+}
+#b3 {
+    background-color: lightgreen;
+    top: 100px;
+    left: 1550px;
+    height: 500px;
+    width: 150px;
+}
+#b4 {
+    background-color: lightslategray;
+    top: 100px;
+    left: 1150px;
+    height: 500px;
+    width: 400px;
+    
+}
+#b5 {
+    background-color:  darkgrey;
+    top: 600px;
+    left: 1000px;
+    height: 100px;
+    width: 700px;
+}

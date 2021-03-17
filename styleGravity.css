@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+#header-bar{
+    background-color: #232d2f;
+    height: 8px;
+}
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom:   1px solid #aaa;
+    padding-top: 20px;
+}
+#header a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-right: 10px;
+}
+#logo2  {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #54a2eb;
+    text-align: center;
+}
+#aboutleft{
+    float: left;
+    width: 50%;
+}
+#aboutright{
+    float: right;
+    width: 50%;
+}

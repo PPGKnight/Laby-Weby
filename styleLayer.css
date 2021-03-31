@@ -1,0 +1,54 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    background-image: url(file:///C:/Users/Kubah/Desktop/layer51/layer51/tlo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo  {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+
+}
+#logo2 {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: #819791;
+    text-transform: uppercase;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #444;
+    display: flex;
+    justify-content: center;
+}
+#container {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10%;
+}
+.picture {
+    padding: 5px;
+    background-color: #fff;
+}
+#header {
+    color: #cbd6df;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    border-bottom: #819791 solid 1px;
+}

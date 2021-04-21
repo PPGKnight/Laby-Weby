@@ -1,19 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylemail.css">
-</head>
-<body>
-    <container>
-        <div id="menu">Menu</div>
-    </container>
-    <post-office> 
-        <div id="mail-list"></div>
-        <div id="mail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatum ut, quia officia dolorem quaerat commodi vel saepe explicabo? Provident sunt praesentium necessitatibus voluptas? Atque incidunt animi at velit architecto?</div>
-    </post-office>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebMail</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="stylemail.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="top">
+        <span id="menuButton">Menu</span>
+        <button id="compose">Compose</button>
+      </div>
+      <div class="wrapper">
+        <div class="options">
+          <span>Inbox</span>
+          <span>Important</span>
+          <span>Sent</span>
+          <span>Drafts</span>
+          <span>Trash</span>
+        </div>
+        <div class="labels">
+          <h2>labels</h2>
+          <div class="box">
+            <div class="rectangle orange"></div>
+            <span>Private</span>
+          </div>
+          <div class="box">
+            <div class="rectangle teal"></div>
+            <span>Job</span>
+          </div>
+          <div class="box">
+            <div class="rectangle green"></div>
+            <span>Flights</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="mails">
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p5" />
+          <div class="text">
+            <span>may june</span>
+            <h3>New York New Yoork</h3>
+            <p>Hey, confirm our meeting today, Fifth avenue. Hmm?</p>
+          </div>
+        </div>
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p4" />
+          <div class="text">
+            <span>johny cash</span>
+            <h3>Re: Pull Requests</h3>
+            <p>Really, better give that money back Papa Joe is waiting.</p>
+          </div>
+        </div>
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p3" />
+          <div class="text">
+            <span>your wordpress</span>
+            <h3>Last warning</h3>
+            <p>Your previous drupal site had 12 errors, 15 warnings. It sucks!</p>
+          </div>
+        </div>
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p2" />
+          <div class="text">
+            <span>june ray</span>
+            <h3>Re: That night</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          </div>
+        </div>
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p1" />
+          <div class="text">
+            <span>andrew clearwater</span>
+            <h3>What about materials?</h3>
+            <p>Lmao you won't get them, don't text me anymore!</p>
+          </div>
+        </div>
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p6" />
+          <div class="text">
+            <span>chris duck</span>
+            <h3>Donec sagittis dolor ut quam pharetra pretum varius in nibh</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugiat sapiente omnis impedit.</p>
+          </div>
+        </div>
+        <div class="mail">
+          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p6" />
+          <div class="text">
+            <span>helen dominic</span>
+            <h3>You're nuts, really!</h3>
+            <p>Check this one before you'll jump!</p>
+          </div>
+        </div>
+      </section>
+      <section class="selected_mail">
+          <div class="mail_menu">
+              <div class="title">
+                  <h2>Aliquam ac feugiat dolor</h2>
+                  <p>From <a href="#">Eno Uqa</a> at <span class="date">13:16pm, May 8, 2015</span></p>
+              </div>
+              <div class="function_buttons">
+                  <button>Reply</button>
+                  <button>Forward</button>
+                  <button>Move to</button>
+              </div>
+          </div>
+          <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim et incidunt quasi quae possimus blanditiis itaque aliquam magnam cumque aliquid voluptatum quaerat, quis accusamus amet. Atque odio accusamus incidunt.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, harum molestias, omnis earum amet libero nobis repudiandae asperiores aut, laborum dolores. Nulla, eum? Vel neque minima quos totam aliquid. Rerum.
+              </br> </br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim et incidunt quasi quae possimus blanditiis itaque aliquam magnam cumque aliquid voluptatum quaerat, quis accusamus amet. Atque odio accusamus incidunt.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, harum molestias, omnis earum amet libero nobis repudiandae asperiores aut, laborum dolores. Nulla, eum? Vel neque minima quos totam aliquid. Rerum.
+              </br></br> Regards, </br></br> Tilo
+              </p>
+          </div>
+      </section>
+    </main>
+  </body>
 </html>

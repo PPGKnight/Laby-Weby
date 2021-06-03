@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: #323232;
+}
+@media only screen and (min-width: 480px)
+{
+    #hotbar{
+        display: flex;
+        max-height: 39px;
+        background-color: #222222;
+        justify-content: space-between;
+        
+    }
+    #main{
+        color:azure;
+        margin-top: 5%;
+        display: flex;
+        font-size: 17px;
+    }
+    
+}
+@media only screen and (min-width: 1140px) 
+{
+    #main{
+        margin-top: 2%;
+        margin-left: 15%;
+        display:flex;
+        flex-direction: row;
+    }
+    #addons{
+        display: flex;
+        flex-direction: column;
+    }
+    #pic{
+        padding: 2%;
+    }
+    #map{
+        padding: 2%;
+        max-width: 693px;
+        max-height: 412px;
+    }
+    
+}
+.picture {
+    border: 5px solid black;
+}
+#logo{
+    align-self: flex-start;
+}
+#socialmedia{
+    align-self: flex-end;
+}
+#map{
+    width: 693px;
+    height: 412px;
+}
+.fa{
+    padding: 11.5px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.fa-facebook {
+    background: #222222;
+    color: white;
+  }
+  .fa-instagram {
+    background: #222222;
+    color: white;
+  }
+  .fa:hover{
+      opacity: 0.7;
+    }

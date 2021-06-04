@@ -8,6 +8,5 @@ function initMap() {
     const marker = new google.maps.Marker({
       position: Toptel,
       map: map,
-    });
+    }) .setMap(map)
   }
-  

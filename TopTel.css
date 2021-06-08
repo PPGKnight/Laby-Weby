@@ -50,6 +50,19 @@ body{
         margin: 5px;
         padding: 5px;
     }
+    #contact{
+        text-align: center;
+        margin: 5%;
+    }
+    .fas{
+        padding: 3%;
+        font-size: 90px;
+    }
+    i span{
+        font-size: 24px;
+        display: block;
+        padding: 10px;
+    }
 }
 @media only screen and (min-width: 1140px) 
 {
@@ -87,9 +100,21 @@ body{
         width: 70px;
         text-align: center;
         text-decoration: none;
-    
+        
     }
-
+    #contact{
+        text-align: center;
+        margin: 6%;
+    }
+    .fas{
+        padding: 5%;
+        font-size: 100px;
+    }
+    i span{
+        font-size: 24px;
+        display: block;
+        padding: 10px;
+    }
 }
 .image{
     border: black 2px solid;

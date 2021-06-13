@@ -60,7 +60,7 @@ nav{
       justify-content: center;
       justify-content: space-between;
   }
-  main{
+  #mainmain{
       background-color: whitesmoke;
       bottom: 0%;
       height: 40%;
@@ -88,6 +88,7 @@ footer{
     margin-top: 5%;
     margin-left:20%;
     margin-right: 20%;
+    margin-bottom: 2%;
     border-top: 1px solid #aaa;
     display: flex;
     flex-direction: column;
@@ -119,3 +120,87 @@ footer .fa:hover{
 footer img{
     padding-top: 10px;
 }
+.gallery{
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 330px);
+}
+.gallery img{
+    width: 330px;
+    height: 330px;
+    cursor: pointer;
+}
+.infomain {
+    margin-top: 5%;
+    background-color: whitesmoke;
+}
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+#lightbox.on {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+}
+#informacje {
+    margin-top: 2%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+    position: relative;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: black;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    padding: 10px;
+}
+#informacje:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+#git{
+    margin-top: -2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: black;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    padding: 10px;
+}
+#git p {
+    font-size: 17px;
+}
+#git a {
+    color: #ff9933;
+    text-decoration: none;
+}
+#git:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+#git i {
+    font-size: 80px;
+    padding: 5px;
+}
+  

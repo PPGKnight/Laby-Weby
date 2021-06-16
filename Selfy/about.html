@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <style> 
+         .indexheader {
+             background: none;
+         }
+         .box-main {
+            margin: 30px 0;
+            padding: 10px;
+         }
+        </style>
+    </head>
+<body>
+    <header class="indexheader">
+            <nav class="indexnav">
+                <div class="leftlogo">
+                   <a class="logo-a" href="#"> <img src="logo.png"></a>
+                </div>
+                <div class="rightmenu">
+                    <a class="a-menu" href="index.html">Home</a>
+                    <a class="a-menu active" href="about.html">About</a>
+                    <a class="a-menu" href="Styles.html">Styles</a>
+                    <a class="a-menu" href="gallery.html">Gallery</a>
+                    <a class="a-menu" href="blog.html">Blog</a>
+                    <a class="a-menu" href="contact.html">Contact</a>
+                    
+                </div>
+                <Div class="closediv"><i class="fas fa-bars close"></i></Div>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                     $('.closediv').click(function(){
+                      $('.rightmenu').toggleClass('activemenu');
+                     })
+                    })
+                  </script>
+            </nav>
+       
+
+    </header>
+    <div class="containers">
+        <img class="aboutimg" src="about_back.jpg">
+        <Div class="content">
+            <div class="box-main">
+            <h2>About me<span>.</span></h2>
+            <p> Praesent commodo cursus magna, venenatis vestibulum. Donec id elit non mi porta gravida at eget vel scelerisl consectetur etsie.</p>
+        </div>
+        <Div class="box-al">
+        <div class="box-main ">
+            
+            <p> Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>>
+            <p>Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur rutrum fauci adipiscing elit.</p>
+        </div>
+        <div class="box-main">
+            
+            <p> Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>>
+            <p>Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur rutrum fauci adipiscing elit.</p>
+        </div>
+    </Div>
+    </Div>
+    </div>
+    <footer>
+        <div class="left-footer">
+            <img src="footer_logo.png"> © Copyright Selfy 2013
+        </div>
+        <div class="right-footer">
+            <a href="#"><img src="facebook.png"></a>
+            <a href="#"><img src="twitter.png"></a>
+            <a href="#"><img src="linkedin.png"></a>
+        </div>
+    </footer>
+</body>
+</html>

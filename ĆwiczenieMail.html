@@ -1,124 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebMail</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="stylemail.css" />
-  </head>
-  <body>
-    <div class="menu">
-      <div class="top">
-        <span id="menuButton">Menu</span>
-        <button id="compose">Compose</button>
-      </div>
-      <div class="wrapper">
-        <div class="options">
-          <span>Inbox</span>
-          <span>Important</span>
-          <span>Sent</span>
-          <span>Drafts</span>
-          <span>Trash</span>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylemail.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div class="rwd-menu"><input class="rwd-button" type="button" value="menu"></div>
+    <div id="menu1" class="menu1">
+        <div id="b">
+        <input type="button" value="Compose"id="button">
         </div>
-        <div class="labels">
-          <h2>labels</h2>
-          <div class="box">
-            <div class="rectangle orange"></div>
-            <span>Private</span>
-          </div>
-          <div class="box">
-            <div class="rectangle teal"></div>
-            <span>Job</span>
-          </div>
-          <div class="box">
-            <div class="rectangle green"></div>
-            <span>Flights</span>
-          </div>
+        <div id="list">
+        <p class="p1">Inbox</p>
+        <p class="p1">Important</p>
+        <p class="p1">Sent</p>
+        <p class="p1">Drafts</p>
+        <p class="p1">Trash</p>
         </div>
-      </div>
+        <div id="labels">LABELS</div> 
+        <div class="line"><div class="colors" id="col1"></div><p class="p2">Private</p></div>
+        <div class="line"><div class="colors" id="col2"></div><p class="p2">Job</p></div>
+        <div class="line"><div class="colors" id="col3"></div><p class="p2">Flights</p></div>
     </div>
-    <main>
-      <section class="mails">
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p5.png" />
-          <div class="text">
-            <span>may june</span>
-            <h3>New York New Yoork</h3>
-            <p>Hey, confirm our meeting today, Fifth avenue. Hmm?</p>
-          </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $('.rwd-menu').click(function(){
+          $('.menu1').toggleClass('active');
+         })
+        })
+      </script>
+
+    <div id="menu2">
+        <div id="menu2left">
+            <div class="mail">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p1.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                    MAY JUNE
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+            <div class="mail blue">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p2.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                    JOHNY CASH
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+            <div class="mail blue">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p3.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                    YOUR WORDPRESS
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+            <div class="mail">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p4.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                   JUNE RAY
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+            <div class="mail">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p5.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                    ANDREW CLEARWATER
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+            <div class="mail">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p6.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                   CHRIS DUCK
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+            <div class="mail">
+                <div class="avatar">
+                    <img class="img-avatar" src="Avatary/p7.png">
+                </div>
+                <div class="m">
+                <div class="m1">
+                    CHRIS DUCK
+                </div>
+                <div class="m2">
+                    New York New Yoork
+                </div>
+                <div class="m3">
+                    Hey, confirm our meeting today, Fifth Avenue. Hmm?
+                </div>
+                </div>
+            </div>
+
+
         </div>
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p4.png" />
-          <div class="text">
-            <span>johny cash</span>
-            <h3>Re: Pull Requests</h3>
-            <p>Really, better give that money back Papa Joe is waiting.</p>
-          </div>
+        <div id="menu2right">
+            <div class="top-content">
+                <div class="top-left">
+                    <h2 class="h2-top">Aliquam ac feugiat dolor</h2>
+                    <span class="2-content">From 
+                        <span class="span-blue"> Eno Uqa </span> at
+                        <span class="span-grey">13:16pm, May 8, 2015</span>
+                        </span>
+                </div>
+                <div class="top-right">
+                    <input type="button" class="right-button" value="Reply">
+                    <input type="button" class="right-button" value="Forward">
+                    <input type="button" class="right-button" value="Move to">                    
+                </div>  
+
+            </div>
+            <div class="bottom-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur repellendus omnis quo maxime impedit praesentium expedita neque sunt, tenetur obcaecati hic numquam, eos sit placeat. Eum ut explicabo beatae pariatur incidunt dolores vero, nostrum dignissimos quam. Accusamus distinctio incidunt molestiae qui reiciendis ipsa placeat, earum eius tenetur hic. Non quaerat explicabo quos numquam modi magni natus? Blanditiis, tempora vero obcaecati incidunt, maxime veniam perspiciatis assumenda repellendus quos dolore voluptatibus voluptate et sed praesentium repudiandae consequatur vitae a accusantium odio magnam nulla eius rerum optio rem? Recusandae, quod maxime? Fuga ut recusandae, expedita excepturi nobis voluptatem odio molestias quidem asperiores, reiciendis labore officia incidunt quis inventore exercitationem aliquam eum corrupti quos. Modi consequatur libero consectetur doloribus aut minima voluptatum ex consequuntur doloremque nisi in ratione corrupti dolorum, voluptas quidem repellendus harum. Expedita eius consectetur quod sunt nostrum laborum suscipit vel nihil, temporibus doloremque, recusandae, molestias nemo consequuntur velit sapiente perspiciatis. Quos, explicabo necessitatibus odit pariatur recusandae earum nemo. Velit quae nesciunt totam soluta cumque ipsum molestias tempora repellendus facere nisi hic, nobis dolore! Qui nemo, in fuga aut veritatis eius voluptas rerum aperiam porro corporis nihil alias non reprehenderit atque natus ipsam voluptatum et doloremque voluptatem consequatur labore! Optio eaque unde iusto, voluptatibus nemo mollitia ut facilis incidunt magnam eveniet nam, amet magni? Ad illum iure nesciunt veritatis, vero neque, praesentium quisquam excepturi omnis alias doloribus. Deleniti dicta deserunt cumque ullam, ex, dignissimos neque quidem quisquam temporibus consequuntur ratione fuga! Laudantium, consequatur minima, harum necessitatibus quos dignissimos distinctio deserunt sed repudiandae qui non doloribus ipsa doloremque! Et doloremque, cum voluptatum expedita eum dolores animi assumenda, dolorem obcaecati dicta placeat adipisci ipsam eaque veritatis fugiat similique repellat vitae, nostrum vero magni quidem at. Culpa excepturi maiores ut alias voluptatum consectetur quisquam exercitationem et numquam aliquid dolor nemo natus est assumenda voluptatem, laborum voluptatibus architecto eaque nulla odit repudiandae? Incidunt rerum corrupti deserunt ipsum possimus assumenda. Quae tempora eos veritatis perspiciatis dolore laudantium tempore necessitatibus, porro adipisci repudiandae commodi assumenda cum autem ex nesciunt mollitia! Optio soluta blanditiis expedita beatae iure iusto similique alias sapiente incidunt aliquid. Voluptatem, exercitationem veritatis, voluptate consectetur quis vel illum doloremque suscipit ut nulla ea, vitae soluta corrupti tempore aspernatur fugit! A distinctio possimus delectus blanditiis nisi dicta ut ducimus debitis dolor eum excepturi, officiis cum error ipsa facilis mollitia sit hic eaque vero eos qui? Numquam id delectus odio reprehenderit vero corrupti assumenda quod ducimus cum optio quasi rerum, repellendus sed, laborum distinctio inventore. Eligendi ratione consectetur atque! Adipisci voluptatibus, recusandae iure expedita consequuntur blanditiis, aut rem eos vero nihil voluptate esse similique consectetur exercitationem, libero quasi repudiandae aliquam iusto. Quam perferendis dolor quidem expedita eveniet earum voluptatum voluptatibus nesciunt facere modi rerum sapiente, ratione id quos dolorem, quasi cumque deleniti officiis assumenda magni corporis? Adipisci enim animi libero a dolore, fugiat provident rem. Quidem recusandae repudiandae qui magni? Quod soluta facere ducimus deserunt reiciendis officia laborum vero nobis necessitatibus, quos minus dolorem nisi perspiciatis rerum saepe, quas sed omnis voluptatum itaque aut? Alias sapiente quo cum?
+            </div>
+
         </div>
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p3.png" />
-          <div class="text">
-            <span>your wordpress</span>
-            <h3>Last warning</h3>
-            <p>Your previous drupal site had 12 errors, 15 warnings. It sucks!</p>
-          </div>
-        </div>
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p2.png" />
-          <div class="text">
-            <span>june ray</span>
-            <h3>Re: That night</h3>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-          </div>
-        </div>
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p1.png" />
-          <div class="text">
-            <span>andrew clearwater</span>
-            <h3>What about materials?</h3>
-            <p>Lmao you won't get them, don't text me anymore!</p>
-          </div>
-        </div>
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p6.png" />
-          <div class="text">
-            <span>chris duck</span>
-            <h3>Donec sagittis dolor ut quam pharetra pretum varius in nibh</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus fugiat sapiente omnis impedit.</p>
-          </div>
-        </div>
-        <div class="mail">
-          <img src="C:\Users\Kubah\Desktop\Visual Studio\Laby-Weby\Laby-Weby\Avatary\p6.png" />
-          <div class="text">
-            <span>helen dominic</span>
-            <h3>You're nuts, really!</h3>
-            <p>Check this one before you'll jump!</p>
-          </div>
-        </div>
-      </section>
-      <section class="selected_mail">
-          <div class="mail_menu">
-              <div class="title">
-                  <h2>Aliquam ac feugiat dolor</h2>
-                  <p>From <a href="#">Eno Uqa</a> at <span class="date">13:16pm, May 8, 2015</span></p>
-              </div>
-              <div class="function_buttons">
-                  <button>Reply</button>
-                  <button>Forward</button>
-                  <button>Move to</button>
-              </div>
-          </div>
-          <div class="text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim et incidunt quasi quae possimus blanditiis itaque aliquam magnam cumque aliquid voluptatum quaerat, quis accusamus amet. Atque odio accusamus incidunt.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, harum molestias, omnis earum amet libero nobis repudiandae asperiores aut, laborum dolores. Nulla, eum? Vel neque minima quos totam aliquid. Rerum.
-              </br> </br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa enim et incidunt quasi quae possimus blanditiis itaque aliquam magnam cumque aliquid voluptatum quaerat, quis accusamus amet. Atque odio accusamus incidunt.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, harum molestias, omnis earum amet libero nobis repudiandae asperiores aut, laborum dolores. Nulla, eum? Vel neque minima quos totam aliquid. Rerum.
-              </br></br> Regards, </br></br> Tilo
-              </p>
-          </div>
-      </section>
-    </main>
-  </body>
+    </div>
+    
+</body>
 </html>

@@ -1,37 +1,115 @@
-p {
-    background-color: darkgrey;
-    font-size: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#main {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
 
 }
-div {
-    font-size: 16px;
-    margin: 0px;
-    padding: 10px;
+.logo {
+    
+}
+.menu {
+    height: auto;
+    min-height: 37px;
     border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-}
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
-#a1 {
-    background-color: lavenderblush;
-    left: 0px;
-    top: 0px;
-}
-#a2 {
-    background-color: lightblue;
-    right: 0px;
-    top: 0px;
 
 }
-#a3 {
-    background-color: lightcoral;
-    right: 0px;
-    bottom: 0px;
+.nav {
+    display: flex;
+    float: right;
 }
-#a4 {
-    background-color: lightgreen;
-    left: 0px;
-    bottom: 0px;
+.nava {
+    text-decoration: none;
+    padding:  6px 15px;
+    display: block;
+   
+    color: rgb(0, 174, 255);
+    
+}
+.nava:hover {
+    text-decoration: none;
+    padding:  6px 15px;
+    display: block;
+    background: rgb(224, 224, 224);
+    transition: 1s;
+    
+}
+.imghead {
+    width: 100%;
+    max-width: inherit;
+    margin-top: 20px;
+}
+h3 {
+    text-align: center;
+    color: rgb(0, 174, 255);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+.block {
+    flex-basis: 50%;
+
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 174, 255);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    margin-left: -20px;
+    opacity: .7;
+}
+.cent {
+    justify-content: center;
+    display: flex;
+}
+.block-down {
+    flex-basis: 23.7%;
+    margin: 5px;
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+.top {
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid black;
+}
+.li {
+    color:rgb(0, 174, 255); ;
+}
+footer {
+    background-color: #252627;
+    background-image: url(img/zabek.jpg);
+    background-repeat: repeat-x;
+    height: 200px;
+    width: 100%;
+    
+    margin-top: 50px;
+}
+.footer-text {
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 30px 0;
 }
